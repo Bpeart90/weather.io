@@ -11,10 +11,11 @@
     </head>
 
     <body>
-
+        <!--Title of the webpage-->
         <header class="bg-dark text-light" style="text-align: center;">
             <h1>Weather For Your City</h1>
         </header>
+        <!--Search bar where the user searches for the city-->
         <div class="jumbotron">
             <div class="row">
                 <div class="col-md-3 bg-light border rounded-lg" style="padding: 1.5rem;">
@@ -22,19 +23,23 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Search City" aria-label="Search City"
                             aria-describedby="button-addon2" id="search-term">
+                        <!--The search button where the search is initiated-->
                         <div class="input-group-append">
                             <button class="btn btn-outline-secondary search-button" type="button"
                                 id="button-addon2">Search</button>
                         </div>
                     </div>
+                    <!--list of previously searched cities-->
                     <ul id="city" style="list-style: none;"></ul>
                 </div>
                 <div class="col-sm-1 mr-n5"></div>
+                <!--placeholder for the weather information-->
                 <div class="main-content col-md-8 border rounded-lg" style="padding: 1.5rem;">
                     <div class="jumbotron" id="current-day-forecast"
                         style="padding-top: 1.5rem; padding-bottom: 1.5rem">
                     </div>
                     <hr>
+                    <!--Placeholder for the 5 day forecast-->
                     <div class="jumbotron" style="padding-top: 1.5rem; padding-bottom: 1.5rem">
                         <div class="row" id="five-day-forecast"></div>
                     </div>
